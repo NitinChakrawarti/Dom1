@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body {
+    /* background-image: linear-gradient(to right bottom, rgb(255,255,255), rgb(0, 0, 0)); */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vmax;
+}
+.card {
+    height: 30vmax;
+    width: 22vmax;
+    background-color: aliceblue;
+    border-radius: .5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img {
+    height: 15vmax;
+    width: auto;
+    border-radius: .5vmax;
+    margin-top: 2vmax;
+    border: 2px solid grey;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vmax;
+}
+.foot h1 {
+    margin-top: 2vmax;
+}
+.realtion p {
+    font-size: 1.6vmax;
+    padding: 0 .2vmax 0 .2vmax;
+    border: 2px solid grey;
+    border-radius: .3vmax;
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.button button {
+    height: 2vmax;
+    padding: 0 .5vmax 0 .5vmax;
+    font-size: 1.5vmax;
+    background-color: aqua;
+    border: 1px solid rgb(164, 161, 161);
+    border-radius: .2vmax;
+}
+.button button:hover{
+    background-color: rgb(67, 244, 244);
+}
