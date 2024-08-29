@@ -36,8 +36,9 @@ body {
 }
 .foot h1 {
     margin-top: 2vmax;
+    font-size: 2vmax;
 }
-.realtion p {
+.realtion {
     font-size: 1.6vmax;
     padding: 0 .2vmax 0 .2vmax;
     border: 2px solid grey;
@@ -46,14 +47,15 @@ body {
     color: aliceblue;
 }
 
-.button button {
+.button {
     height: 2vmax;
     padding: 0 .5vmax 0 .5vmax;
     font-size: 1.5vmax;
     background-color: aqua;
     border: 1px solid rgb(164, 161, 161);
     border-radius: .2vmax;
+    cursor: pointer;
 }
-.button button:hover{
+.button:hover{
     background-color: rgb(67, 244, 244);
 }
